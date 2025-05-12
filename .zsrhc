@@ -1,0 +1,28 @@
+# Path to your Oh My Zsh installation.
+export ZSH="$HOME/.oh-my-zsh"
+
+# you can pick your own theme
+ZSH_THEME="jaischeema"
+
+# put extra plugins here
+plugins=(git
+	 bundler
+	 dotenv
+	 rake)
+
+
+# saying that the source is in the "oh-my-zsh.sh" shell file
+source $ZSH/oh-my-zsh.sh
+
+# User configuration
+#if command -v tmux &> /dev/null && [ -z "$TMUX" ] && [ -n = "PSI"]; then
+#  tmux attach-session -t default || tmux new-session -s default
+#fi
+
+
+#starting directory
+# you can change this when you want to start the shell from 
+# different location
+# cd ~
+
+
