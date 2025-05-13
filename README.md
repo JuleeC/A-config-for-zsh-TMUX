@@ -9,7 +9,9 @@ This project is for people who find it hard to just get a default tmux config wi
 ## 1.Installation
 ### 1.1 kitty
 normaly kitty is already installed on arch but we can also check it by typing
-""" kitty -v """
+
+``` kitty -v ```
+
 if it returns a version, we are ensured that kitty is installed :)
 
 so now we can navigate to .config/kitty and in there we can create a file called __kitty.conf__. If you dont know how to create a file, its just "touch kitty.conf" or if you have vim installed you can also type "vim kitty.conf"
