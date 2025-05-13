@@ -7,13 +7,16 @@ This project is for people who find it hard to just get a default tmux config wi
 
 > the config for tmux is mostly cyan because i like it and theprimeagen said ~~2023~~ 2025 is the year of CYAN
 ## 1.Installation
+### Git
+```
+sudo pacman -S git
+```
+git is essential for this part cause of the oh-my-zsh config so it install it via
 ### 1.1 kitty
 normaly kitty is already installed on arch but we can also check it by typing
-
 ```
 kitty -v
 ```
-
 if it returns a version, we are ensured that kitty is installed :)
 
 so now we can navigate to .config/kitty and in there we can create a file called __kitty.conf__. If you dont know how to create a file, its just "touch kitty.conf" or if you have vim installed you can also type "vim kitty.conf".
@@ -53,7 +56,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 now that we have installed everything, we can finally configure the shell. To do that we need to create a file called .zshrc in the directory ~/ (its the user directory and the config is also going to be for that one user. If you want to use it systemwide, you can check out official documentation) In that file we are going to paste my config that is in the repo (the file is also called .zshrc)
 NOW WE GOT ZSH WORKING WUHUU!!!
 
-### 1.3 
+### 1.3 TMUX 
 
 
 
