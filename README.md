@@ -10,11 +10,33 @@ This project is for people who find it hard to just get a default tmux config wi
 ### 1.1 kitty
 normaly kitty is already installed on arch but we can also check it by typing
 
-``` kitty -v ```
+```
+kitty -v
+```
 
 if it returns a version, we are ensured that kitty is installed :)
 
-so now we can navigate to .config/kitty and in there we can create a file called __kitty.conf__. If you dont know how to create a file, its just "touch kitty.conf" or if you have vim installed you can also type "vim kitty.conf"
+so now we can navigate to .config/kitty and in there we can create a file called __kitty.conf__. If you dont know how to create a file, its just "touch kitty.conf" or if you have vim installed you can also type "vim kitty.conf".
+### 1.2 zsh
+zsh is a shell that is mostly already installed but we can check by typing
+```
+zsh --version
+``` 
+if it isnt installed we need to type
+```
+sudo pacman -S zsh
+``` 
+now that we have it installed we can set it to the default shell
+It can be set to default shell by typing this 
+```
+chsh -s $(/bin/zsh)
+``` 
+if it doesnt work, here is a link for preciser documentation
+https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
+
+
+
+
 
 
 
