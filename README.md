@@ -8,10 +8,11 @@ This project is for people who find it hard to just get a default tmux config wi
 > the config for tmux is mostly cyan because i like it and theprimeagen said ~~2023~~ 2025 is the year of CYAN
 ## 1.Installation
 ### Git
+git is essential for this part cause of the oh-my-zsh config so it install it via
+
 ```
 sudo pacman -S git
 ```
-git is essential for this part cause of the oh-my-zsh config so it install it via
 ### 1.1 kitty
 normaly kitty is already installed on arch but we can also check it by typing
 ```
