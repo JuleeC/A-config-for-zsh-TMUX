@@ -72,6 +72,11 @@ vim ~/.tmux.conf
 ```
 after that paste my config in the file if you want my design and everything.If you dont like the keybinds for splitting or other binds, just go to the file and change it to your wished bind
 
+### Autostarting
+if you want to autostart tmux, just go in the previous created kitty.conf file and type this:
+```
+shell tmux
+```
 ### FINISHED
 now you can succesfully say that your terminal doesnt look that bad :)
 if you want to support me, just star the repo <3
