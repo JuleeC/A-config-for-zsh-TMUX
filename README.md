@@ -58,8 +58,23 @@ now that we have installed everything, we can finally configure the shell. To do
 NOW WE GOT ZSH WORKING WUHUU!!!
 
 ### 1.3 TMUX 
+firstly we need to check if tmux is installed
+```
+tmux -V
+```
+if it returns a value, we know that it is installed. After that we need to add a file to user directory so type
+```
+touch ~/.tmux.conf
+```
+or if you want to use vim
+```
+vim ~/.tmux.conf
+```
+after that paste my config in the file if you want my design and everything.If you dont like the keybinds for splitting or other binds, just go to the file and change it to your wished bind
 
-
+### FINISHED
+now you can succesfully say that your terminal doesnt look that bad :)
+if you want to support me, just star the repo <3
 
 
 
