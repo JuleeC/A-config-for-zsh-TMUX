@@ -75,6 +75,7 @@ after that paste my config in the file if you want my design and everything.If y
 ### FINISHED
 now you can succesfully say that your terminal doesnt look that bad :)
 if you want to support me, just star the repo <3
+a waybar is coming soon to but only when i have the time xd
 
 
 
